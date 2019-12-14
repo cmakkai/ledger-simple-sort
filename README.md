@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This small Python script parses a Ledger (ledger-cli.org) journal and sorts transactions by date without re-formatting the original transactions.
+This small Python script parses a [Ledger](https://www.ledger-cli.org) journal and sorts transactions by date without re-formatting the original transactions.
 
 Ledger offers sorting through `ledger print --raw` command, yet doing so strips some data such as comments outside of transactions. This Python script solves this problem by using regular expressions to parse and sort blocks of text.
 
